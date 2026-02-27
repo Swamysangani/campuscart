@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://campuscart-rm2e.onrender.com';
 
 // Helper for authenticated requests
 const authFetch = async (url, options = {}) => {
