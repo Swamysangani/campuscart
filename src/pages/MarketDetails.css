@@ -1,0 +1,83 @@
+.market-layout {
+    gap: 3rem;
+}
+
+.market-main-image {
+    border: 1px solid var(--border-color);
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.market-info-section {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--shadow-color);
+    border: 1px solid var(--border-color);
+}
+
+.market-badge {
+    display: inline-block;
+    background-color: var(--search-bg);
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.market-price-section {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.market-actions {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex: 2;
+}
+
+.btn-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex: 1;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.btn-delete:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.seller-safety-tip {
+    background-color: var(--search-bg);
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.seller-safety-tip h4 {
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+.seller-safety-tip p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0;
+}

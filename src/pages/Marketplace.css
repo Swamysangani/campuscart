@@ -1,0 +1,45 @@
+/* Uses same layout structure as Products.css for consistency */
+.marketplace-layout {
+    display: flex;
+    gap: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    align-items: flex-start;
+}
+
+.marketplace-header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-bg);
+    padding: 1rem 1.5rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.btn-sell {
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    /* E.g. Blinkit green / Action color */
+}
+
+.btn-sell:hover {
+    filter: brightness(0.9);
+}
+
+@media (max-width: 768px) {
+    .marketplace-layout {
+        flex-direction: column;
+    }
+
+    .marketplace-header-area {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .btn-sell {
+        width: 100%;
+    }
+}
